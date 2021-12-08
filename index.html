@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div class="calc">
+		<h3>Калькулятор</h3>
+		<div>
+			Введите цену товара:
+	        <input type="text" class="firstNumber"> 
+	        Введите количество товара:
+	        <input type="text" class="secondNumber">
+		</div>
+    	<button class="buttonPlace">Вычислить</button>
+		<hr>Рeзультат: 
+		<span class="resultPlace"></span>
+	</div>
+
+
+ 	<div>
+        <h3>Калькулятор стоимости</h3>
+        <select id="typ">
+            <option value="1">Первое</option>
+            <option value="2">Второе</option>
+            <option value="3">Третье</option>
+        </select>
+        <input type="text" id="county" placeholder="Количество">
+    </div>
+    <div>
+        <div id="radio" hidden="true">
+            <input id="r1" type="radio" name="radio" value="1" checked> ?
+            <input id="r2" type="radio" name="radio" value="2"> ?
+        </div>
+        <br>
+        <div id="checkbox" hidden="true">
+            <input id="chk1" type="checkbox" name="checkbox" value="1"> ??
+            <input id="chk2" type="checkbox" name="checkbox" value="2"> ??
+        </div>
+        <div id="result"></div>
+    </div>
+	<script defer src="script.js"></script>
+</body>
+</html>
